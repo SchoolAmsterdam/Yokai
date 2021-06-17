@@ -12,18 +12,18 @@ public class Dialog : MonoBehaviour
     public bool checkBool;
 
     public GameObject dialogStuff;
-    public GameObject trigger;
+    //public GameObject trigger;
     public GameObject objectMessageNo;
     PlayerMovement playerMovementScript;
     AdvancedMovement advancedMovementSpeed;
     //public Animator textDisplayAnim;
-    //private AudioSource source;
+    public AudioSource source;
 
     void Start()
     {
         playerMovementScript = GetComponent<PlayerMovement>();
         advancedMovementSpeed = GetComponent<AdvancedMovement>();
-        //source = GetComponent<AudioSource>();
+        source = GetComponent<AudioSource>();
 
         checkBool = false;
         dialogStuff.SetActive(false);
@@ -62,7 +62,7 @@ public class Dialog : MonoBehaviour
     }
     public void NextSentence()
     {
-        //source.Play();
+        source.Play();
         //textDisplayAnim.SetTrigger("Change");
         dialogStuff.SetActive(false);
 
