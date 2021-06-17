@@ -12,6 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 1813f56c8e083494da5c9399c21eddc7
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/Scene(Bjorn).unity
+=======
+    path: Assets/Scenes/Main.unity
+>>>>>>> Stashed changes
     guid: f937d7f603b079f4896337ee6dee78e7
   m_configObjects: {}
