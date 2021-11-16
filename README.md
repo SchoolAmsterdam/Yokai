@@ -1,8 +1,11 @@
 # Yokai
 
 Team:
-1. Bjorn Ravensbergen.
-2. Cas de Graaff
+1. Bjorn Ravensbergen
+2. Rozemarijn de Heul
+3. Tycho Mengels
+4. Nacef el Ajami
+5. Brandon Mynders
 
 Duur:
 - 8 Weken
